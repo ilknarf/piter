@@ -46,9 +46,11 @@ func main() {
 	batchSize := 10
 
 	// in parallel
-	res, err := pslices.PMap(ctx, batchIter, batchSize, taskHandler)
+	results, err := pslices.PMap(ctx, batchIter, batchSize, taskHandler)
 
+	for _, entry := range results {
 	// ...
+	}
 }
 
 ```
