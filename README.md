@@ -1,6 +1,6 @@
 # PIter
 
-## Parallel Consumers using Go Iterators
+## Concurrent Consumers using Go Iterators
 
 - Required Go version: `1.23+`
 
